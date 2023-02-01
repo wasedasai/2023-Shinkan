@@ -3,12 +3,17 @@
 
 
 @media print, screen and (min-width: 600px){
+   
+html{
+    height: 100%;
+}    
 body {
   font-family: Arial, "メイリオ", sans-serif;
   background-color: #202020;
   margin: 0;
   width:100%;
   padding-top:50px;
+  position: relative;
 }
 
 header{
