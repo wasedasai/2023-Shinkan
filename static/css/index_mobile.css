@@ -9,6 +9,7 @@
     background-color: #202020;
     margin: 0;
     width:100%;
+    padding-top:50px;
   }
   
   header{
@@ -99,8 +100,31 @@
   .gnav__menu__item a:hover{
       color: #525252
   }
-  
+
   .qqq{
     height:1000%;
+  }
+
+  footer{
+    width:100%;
+    background-color:orangered;
+    height:30%;
+  }
+  
+  .footer-parent{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+  }
+  
+  .footer-child{
+    width:25%;
+    text-align: center;
+    border:3px solid;
+    border-color: aqua;
+    padding:10px;
+    margin:10px;
   }
 }
