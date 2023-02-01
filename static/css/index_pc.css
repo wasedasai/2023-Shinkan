@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+
+@media print, screen and (min-width: 600px){
+body {
+  font-family: Arial, "メイリオ", sans-serif;
+  background-color: #202020;
+  margin: 0;
+  width:100%;
+  padding-top:50px;
+}
+
+header{
+  width:100%;
+  height:50px;
+  background-color: orangered;
+  position: fixed;
+  top:0;
+}
+
+
+
+/*menu*/
+.menu{
+    height: 20px;/*menubar size*/
+    width: 30px;/*menubar size*/
+    position: fixed;/*menubar position*/
+    right: 20px;/*menubar position*/
+    top: 20px;/*menubar position*/
+    z-index: 99;/*menubar 一番手前側に配置*/
+    cursor: pointer;/*カーソルを指の形に変更*/
+}
+.menu__line{
+    background: #fff;/*bar color*/
+    display: block;/*https://saruwakakun.com/html-css/basic/display*/
+    height: 2px;/*bar thickness*/
+    position: absolute;/*絶対位置*/
+    width: 100%;/*棒の長さ*/
+    transition-duration: .1s;
+}
+.menu__line--center{
+    top: 9px;/*棒の位置*/
+        transition-duration: .1s;
+}
+.menu__line--bottom{
+    bottom: 0;/*下の棒の位置*/
+        transition-duration: .1s;
+}
+.menu__line--top.active{
+    top: 8px;
+    transform: rotate(45deg);/*上の棒の挙動*/
+}
+.menu__line--center.active{
+    transform:scaleX(0);/*真ん中の棒の挙動*/
+}
+.menu__line--bottom.active{
+    bottom: 10px;
+    transform: rotate(135deg);/*下の棒の挙動*/
+}
+/*gnav*/
+/*箱*/
+
+.gnav{
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+    display:none;
+    width: 100%;
+    z-index: 98;
+    position: fixed;
+}
+.gnav__wrap{
+    align-items:center;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.gnav__menu{
+    width: 170px;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    list-style: none;
+    padding: 0;
+}
+.gnav__menu__item{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gnav__menu__item a{
+	  color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+	  text-decoration: none;
+    transition:.5s;/*黒く変わるまで*/
+}
+.gnav__menu__item a:hover{
+    color: #525252
+}
+
+.qqq{
+  height:1000%;
+}
+
+footer{
+  width:100%;
+  background-color:orangered;
+  height:30%;
+}
+
+.footer-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+
+.footer-child{
+  width:30%;
+  margin:20px 50px;
+  text-align: center;
+  border:3px solid;
+  border-color: aqua;
+  padding:30px;
+}
+
+
+}
