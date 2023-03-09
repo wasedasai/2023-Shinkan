@@ -136,5 +136,35 @@ footer{
     font-weight: 400;
     color:#08263a;
 }
+.blocktitle-green{
+    font-size: 20px;
+    font-weight: 400;
+    color:#08263a;
+    border-bottom: 3px solid #77a9aa;
+    padding-bottom: 2px;
+ }
 
+ .blocktitle-yellow{
+    font-size: 20px;
+    font-weight: 400;
+    color:#08263a;
+    border-bottom: 3px solid #f7d494;
+    padding-bottom: 2px;
+ }
+
+ .blocktitle-pink{
+    font-size: 20px;
+    font-weight: 400;
+    color:#08263a;
+    border-bottom: 3px solid #f7c4c6;
+    padding-bottom: 2px;
+ }
+
+ .blocktitle-navy{
+    font-size: 20px;
+    font-weight: 400;
+    color:#08263a;
+    border-bottom: 3px solid #566c7d;
+    padding-bottom: 2px;
+ }
 }
