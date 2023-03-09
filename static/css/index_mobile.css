@@ -99,29 +99,93 @@
       color: #525252
   }
 
-  footer{
-    width:100%;
-    background-color:orangered;
-    height:30%;
+
+  .footer {
+    width: 100%;
+    background-color: #E3FFF6;
+    color:#08263A;
+    padding: 3rem 1rem;
+    position: relative;
   }
   
-  .footer-parent{
-    width:100%;
+  .footer-inner {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height:100%;
   }
   
-  .footer-child{
-    width:25%;
-    text-align: center;
-    border:3px solid;
-    border-color: aqua;
-    padding:10px;
-    margin:10px;
+  .footer-logo-container {
+    max-width: 240px;
   }
-
+  .footer-logo{
+    widrg:150px;
+    display: none;
+  }
+  
+  .footer-navi-list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    display: none;
+  }
+  
+  hr {
+    display: none;
+  }
+  
+  .nav-list {
+    width: 100%;
+  }
+  
+  .nav-list li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    color: #4c2219;
+    text-decoration: none;
+  }
+  
+  .nav-list li a:hover {
+    color: #804b40;
+  }
+  
+  .footer-sns-title {
+    text-align: center;
+    color: #4c2219;
+    padding-top: 1rem;
+  }
+  
+  .sns-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .sns-links-container .sns-link {
+    width: 48px;
+    filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
+    transition-duration: 0.4s;
+  }
+  .sns-links-container .sns-link:hover {
+    filter: drop-shadow(8px 8px 4px rgb(0 0 0 / 0.4));
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+  }
+  .etunenlogo {
+    width: 36%;
+    object-fit: cover;
+  }
+  
 
 
   .paragraph{
