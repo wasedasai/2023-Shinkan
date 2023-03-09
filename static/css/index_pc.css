@@ -104,28 +104,92 @@ header{
     color: #525252
 }
 
-footer{
-  width:100%;
-  background-color:orangered;
-  height:30%;
-}
 
-.footer-parent{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100%;
-}
+.footer {
+    background-color: #E3FFF6;
+    color: #08263A;
+    padding: 3rem 1rem;
+    position: relative;
+  }
+  
+  .footer-inner {
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .footer-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-logo-container {
+    max-width: 320px;
+    width: 330px;
+    height: 100px;
+  }
+  .footer-logo{
+    width: 340px;
+    height: 350px;
+  }
+  
+  .footer-navi-list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0.3rem;
+  }
+  
+  hr {
+    display: none;
+  }
+  
+  .nav-list {
+    width: 380%;
+    list-style: none;
+    margin: 25px;
+  }
+  
+  .nav-list li a {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    padding: 0.8rem 4rem;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .nav-list li{
+    text-align: center;
+    margin:20px;
+  }
+  
 
-.footer-child{
-  width:30%;
-  margin:20px 50px;
-  text-align: center;
-  border:3px solid;
-  border-color: aqua;
-  padding:30px;
-}
-
+  .nav-list li a:hover {
+    color: #804b40;
+  }
+  
+  
+  .sns-links-container {
+    display: flex;
+    justify-content: right;
+    gap: 3rem;
+   padding-right: 90px;
+   padding-bottom: 20px;
+  }
+  
+  .sns-links-container .sns-link {
+    width: 48px;
+    transition-duration: 0.4s;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+  }
+  .etunenlogo {
+    width: 36%;
+    object-fit: cover;
+  }
+  
 
 .paragraph{
     width:100%;
