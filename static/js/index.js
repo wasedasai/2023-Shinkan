@@ -5,6 +5,7 @@ jQuery(function($){
         if(clickflug){
             clickflug = false;
             $('.menu__line').toggleClass('active');
+            $('.bar').toggleClass('active');
             $('.gnav').css({
                 'display' : 'block',
             });
