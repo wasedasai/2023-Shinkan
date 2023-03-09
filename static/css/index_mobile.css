@@ -4,7 +4,7 @@
 
   body {
     font-family: 'Zen Maru Gothic', sans-serif;
-    background-color: #77a9aa;
+    background-color: #E3FFF6;
     margin: 0;
     width:100%;
     padding-top:50px;
@@ -195,7 +195,301 @@
     padding-bottom: 8px;
     font-weight: 400;
     color:#08263a;
-}
+ }
+  
+ /*squarelink　ピンク*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  .squarelinkpink{
+    width:251px;
+    height: 112px;
+    line-height: 112px;
+  }
+  .btn-pink{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    display: table-cell;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #08263A;
+  }
+  
+  a.btn-border-shadow {
+    padding: calc(1.5rem - 12px) 3rem 1.5rem;
+    border-radius: 20px;
+  }
+  
+  a.btn-border-shadow:before {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 251px;
+    height: 112px;
+    content: "";
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 3px solid #566C7D;
+  }
+  
+  a.btn-border-shadow:hover {
+    padding: calc(1.5rem - 6px) 3rem;
+  }
+  
+  a.btn-border-shadow:hover:before {
+    top: 0;
+    left: 0;
+  }
+  
+  a.btn-border-shadow--color {
+    border-radius: 0;
+    background: #F7C4C6;
+    border-radius: 20px;
+    width: 251px;
+    height: 112px;
+  }
+  
+  a.btn-border-shadow--color:before {
+    border-radius: 20px;
+  }
+ /*squarelink　緑*/
+ *,
+ *:before,
+ *:after {
+     -webkit-box-sizing: inherit;
+     box-sizing: inherit;
+   }
+   
+   html {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-size: 62.5%;
+   }
+   
+   .btn-green{
+     font-size: 1.6rem;
+     font-weight: bold;
+     line-height: 1.5;
+     position: relative;
+     display: table-cell;
+     padding: 1rem 4rem;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+     vertical-align: middle;
+     text-align: center;
+     text-decoration: none;
+     letter-spacing: 0.1em;
+     color: #ffffff;
+   }
+   
+   a.btn-border-shadow-gren {
+     padding: calc(1.5rem - 12px) 3rem 1.5rem;
+     border-radius: 20px;
+   }
+   
+   a.btn-border-shadow-green:before {
+     position: absolute;
+     top: -16px;
+     left: -16px;
+     width: 251px;
+     height: 112px;
+     content: "";
+     -webkit-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     border: 3px solid #566C7D;
+   }
+   
+   a.btn-border-shadow-green:hover {
+     padding: calc(1.5rem - 6px) 3rem;
+   }
+   
+   a.btn-border-shadow-green:hover:before {
+     top: 0;
+     left: 0;
+   }
+   
+   a.btn-border-shadow--color-green {
+     border-radius: 0;
+     background: #77A9AA;
+     border-radius: 20px;
+     width: 251px;
+     height: 112px;
+   }
+   
+   a.btn-border-shadow--color-green:before {
+     border-radius: 20px;
+   }
+/*squarelink　黄*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  .btn-yellow{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    display: table-cell;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #08263A;
+  }
+  
+  a.btn-border-shadow-yellow {
+    padding: calc(1.5rem - 12px) 3rem 1.5rem;
+    border-radius: 20px;
+  }
+  
+  a.btn-border-shadow-yellow:before {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 251px;
+    height: 112px;
+    content: "";
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 3px solid #566C7D;
+  }
+  
+  a.btn-border-shadow-yellow:hover {
+    padding: calc(1.5rem - 6px) 3rem;
+  }
+  
+  a.btn-border-shadow-yellow:hover:before {
+    top: 0;
+    left: 0;
+  }
+  
+  a.btn-border-shadow--color-yellow {
+    border-radius: 0;
+    background: #F7D494;
+    border-radius: 20px;
+    width: 251px;
+    height: 112px;
+  }
+  
+  a.btn-border-shadow--color-yellow:before {
+    border-radius: 20px;
+  }
+/*squarelink　赤*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  .btn-red{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.5;
+    position: relative;
+    display: table-cell;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  
+  a.btn-border-shadow-red {
+    padding: calc(1.5rem - 12px) 3rem 1.5rem;
+    border-radius: 20px;
+  }
+  
+  a.btn-border-shadow-red:before {
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 251px;
+    height: 112px;
+    content: "";
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 3px solid #566C7D;
+  }
+  
+  a.btn-border-shadow-red:hover {
+    padding: calc(1.5rem - 6px) 3rem;
+  }
+  
+  a.btn-border-shadow-red:hover:before {
+    top: 0;
+    left: 0;
+  }
+  
+  a.btn-border-shadow--color-red {
+    border-radius: 0;
+    background: #F46E74;
+    border-radius: 20px;
+    width: 251px;
+    height: 112px;
+  }
+  
+  a.btn-border-shadow--color-red:before {
+    border-radius: 20px;
+  }
+
 /*hero青*/
 .heroblue{
     position: relative;
