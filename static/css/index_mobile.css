@@ -216,10 +216,9 @@
     box-sizing: inherit;
   }
   
-  html {
+  .squarelinkpink a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 62.5%;
   }
   .squarelinkpink{
     width:251px;
@@ -292,13 +291,14 @@
      box-sizing: inherit;
    }
    
-   html {
+   .squarelinkgreen a {
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
-     font-size: 62.5%;
    }
    
-   .btn-green{
+   .btn-green,
+   a.btn-green,
+   button.btn-green{
      font-size: 1.6rem;
      font-weight: bold;
      line-height: 1.5;
@@ -316,10 +316,10 @@
      text-align: center;
      text-decoration: none;
      letter-spacing: 0.1em;
-     color: #ffffff;
+     color: #fff;
    }
    
-   a.btn-border-shadow-gren {
+   a.btn-border-shadow-green {
      padding: calc(1.5rem - 12px) 3rem 1.5rem;
      border-radius: 20px;
    }
@@ -364,10 +364,9 @@
     box-sizing: inherit;
   }
   
-  html {
+  .squarelinkyellow a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 62.5%;
   }
   
   .btn-yellow{
@@ -436,10 +435,9 @@
     box-sizing: inherit;
   }
   
-  html {
+  .squarelinkred a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 62.5%;
   }
   
   .btn-red{

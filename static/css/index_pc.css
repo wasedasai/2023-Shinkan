@@ -164,11 +164,14 @@ header{
   
   .nav-list li a {
     display: flex;
-    width: 90%;
-    height: 100%;
-    padding: 0.8rem 4rem;
+    color: #08263a;
+    padding: 3px;
     text-decoration: none;
     list-style: none;
+    font-weight: 400;
+    width:100%;
+    align-items: center;
+    justify-content: center;
   }
   
   .nav-list li{
@@ -213,30 +216,13 @@ header{
     font-weight: 400;
     color:#08263a;
 }
-/*squarelink　ピンク*/
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: inherit;
-    box-sizing: inherit;
-  }
-  
-  html {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 62.5%;
-  }
-  .squarelinkpink{
-    width:251px;
-    height: 112px;
-    line-height: 112px;
-  }
+
 /*hero青*/
 .heroblue{
-    position: relative;
+  position: relative;
 }
 .herophoto{
-    width: 100%;
+  width: 100%;
 }
 .heroblue p {
 position:absolute;
@@ -252,24 +238,43 @@ font-weight: bold;
 }
 /*hero白*/
 .herowhite{
-    position: relative;
+  position: relative;
 }
 .herophoto{
-    width: 100%;
+  width: 100%;
 }
 
 .herowhite p {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    margin:0;
-    padding:0;
-    font-size: 5vw;
-    font-weight: bold;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size: 5vw;
+  font-weight: bold;
 }
+
+
+/*squarelink　ピンク*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  .squarelinkpink a {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .squarelinkpink{
+    width:251px;
+    height: 112px;
+    line-height: 112px;
+  }
 
   .btn-pink {
     font-size: 1.6rem;
@@ -337,15 +342,14 @@ font-weight: bold;
      box-sizing: inherit;
    }
    
-   html {
+   .squarelinkgreen a {
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
-     font-size: 62.5%;
    }
    
    .btn-green,
    a.btn-green,
-   button.btn-green {
+   button.btn-green{
      font-size: 1.6rem;
      font-weight: bold;
      line-height: 1.5;
@@ -363,10 +367,10 @@ font-weight: bold;
      text-align: center;
      text-decoration: none;
      letter-spacing: 0.1em;
-     color: #ffffff;
+     color: #fff;
    }
    
-   a.btn-border-shadow-gren {
+   a.btn-border-shadow-green {
      padding: calc(1.5rem - 12px) 3rem 1.5rem;
      border-radius: 20px;
    }
@@ -411,10 +415,9 @@ font-weight: bold;
     box-sizing: inherit;
   }
   
-  html {
+  .squarelinkyellow a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 62.5%;
   }
   
   .btn-yellow,
@@ -485,10 +488,9 @@ font-weight: bold;
     box-sizing: inherit;
   }
   
-  html {
+  .squarelinkred a {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 62.5%;
   }
   
   .btn-red,
