@@ -133,35 +133,84 @@
     color:#08263a;
 }
 
- .blocktitle-green{
+.blocktitle-green{
+    margin-bottom: 16px;
+    margin-left: 8px;
+    position: relative;
+    display: inline;
+    margin: 0 auto;
     font-size: 24px;
-    font-weight: 400;
-    color:#08263a;
-    border-bottom: 3px solid #77a9aa;
-    padding-bottom: 2px;
+  }
+.blocktitle-green::after{
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -4px; /*下線の上下位置調整*/
+    display: inline-block;
+    width: calc(100% + 5px); /*下線の幅*/
+    height: 3px; /*下線の太さ*/
+    background-color: #77a9aa; /*下線の色*/
+    border-radius: 2px;
  }
-
- .blocktitle-yellow{
+.blocktitle-yellow{
+    margin-bottom: 16px;
+    margin-left: 8px;
+    position: relative;
+    display: inline;
+    margin: 0 auto;
     font-size: 24px;
-    font-weight: 400;
-    color:#08263a;
-    border-bottom: 3px solid #f7d494;
-    padding-bottom: 2px;
- }
+  }
+ .blocktitle-yellow::after {
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -4px; /*下線の上下位置調整*/
+    display: inline-block;
+    width: calc(100% + 5px); /*下線の幅*/
+    height: 3px; /*下線の太さ*/
+    background-color: #f7d494; /*下線の色*/
+    border-radius: 2px;
+    
+  }
+    
 
- .blocktitle-pink{
+  .blocktitle-pink{
+    margin-bottom: 16px;
+    margin-left: 8px;
+    position: relative;
+    display: inline;
+    margin: 0 auto;
     font-size: 24px;
-    font-weight: 400;
-    color:#08263a;
-    border-bottom: 3px solid #f7c4c6;
-    padding-bottom: 2px;
+  }
+  .blocktitle-pink::after{
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -4px; /*下線の上下位置調整*/
+    display: inline-block;
+    width: calc(100% + 5px); /*下線の幅*/
+    height: 3px; /*下線の太さ*/
+    background-color: #f7c4c6; /*下線の色*/
+    border-radius: 2px;
  }
 
  .blocktitle-navy{
+    margin-bottom: 16px;
+    margin-left: 8px;
+    position: relative;
+    display: inline;
+    margin: 0 auto;
     font-size: 24px;
-    font-weight: 400;
-    color:#08263a;
-    border-bottom: 3px solid #566c7d;
-    padding-bottom: 2px;
+  }
+ .blocktitle-navy::after{
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -4px; /*下線の上下位置調整*/
+    display: inline-block;
+    width: calc(100% + 5px); /*下線の幅*/
+    height: 3px; /*下線の太さ*/
+    background-color: #566c7d; /*下線の色*/
+    border-radius: 2px;
  }
 }
