@@ -213,4 +213,37 @@
     background-color: #566c7d; /*下線の色*/
     border-radius: 2px;
  }
+
+  /*sectiontile五角形と六角形のやつ*/
+  .box{
+    position: relative;
+    width: 600px;
+    height: 600px}
+ .box img{width: 30%}
+ .sectiontitle-pentagon{
+    font-size: 36px;
+    color: #08263a;
+    font-weight: bold;
+    position: absolute;
+    top: 15;
+    left: 30;
+    padding:0;
+    margin: 0;
+ }
+
+ /*sectiontitle六角形二つ重なってるやつ*/
+ .box2{position: relative;
+    width: 600px;
+    height: 600px}
+ .box2 img{width: 30%}
+ .sectiontitle-hexagon{
+      font-size: 36px;
+      color:#08263a;
+      font-weight: bold;
+      position: absolute;
+      top: 15;
+      left: 25;
+      padding:0;
+      margin: 0;
+   }
 }
