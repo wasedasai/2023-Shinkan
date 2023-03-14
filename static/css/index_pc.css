@@ -217,46 +217,40 @@ header{
     color:#08263a;
 }
 
-/*hero青*/
-.heroblue{
-  position: relative;
+/*スライド*/
+.slider {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 40px;
 }
-.herophoto{
-  width: 100%;
+.slider-item {
+  width: 300px;
+  float: left;
 }
-.heroblue p {
-position:absolute;
-top: 50%;
-left: 50%;
--ms-transform: translate(-50%,-50%);
--webkit-transform: translate(-50%,-50%);
-transform: translate(-50%,-50%);
-margin:0;
-padding:0;
-font-size: 5vw;
-font-weight: bold;
+.slider-item img{
+  width:100%;
 }
-/*hero白*/
-.herowhite{
-  position: relative;
-}
-.herophoto{
-  width: 100%;
+.slider-inner {
+  width: 300%;
+  animation: slider 10s infinite ease;
 }
 
-.herowhite p {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  font-size: 5vw;
-  font-weight: bold;
+@keyframes slider {
+	0% {
+	transform: translateX(0);
+	}
+	33% {
+	transform: translateX(-300px);
+	}
+	66% {
+	transform: translateX(-600px);
+	}
+	100% {
+	transform: translateX(0);
+	}
 }
-
 
 /*squarelink　ピンク*/
 *,
