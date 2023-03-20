@@ -112,7 +112,7 @@
   }
   
   .footer {
-    width: 100%;
+    width: 90%;
     background-color: #E3FFF6;
     color:#08263A;
     padding: 3rem 1rem;
@@ -175,13 +175,13 @@
   .sns-links-container {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
     padding-top: 1rem;
     flex-wrap: wrap;
   }
   
   .sns-links-container .sns-link {
-    width: 48px;
+    width: 40px;
     filter: drop-shadow(4px 4px 2px rgb(0 0 0 / 0.4));
     transition-duration: 0.4s;
   }
