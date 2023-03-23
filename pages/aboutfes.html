@@ -48,53 +48,78 @@
                 </div>
     </header>
 
- <div class="spacer" style="height:100%;">
-    aaaaaaaaaaaa
-    appear-class="as
-    s
-    ada
-    da
-    dada
-    adad
-    ad
-    a
-    dad
-    a
-    da
-    da"
- </div>
- <div class="heroblue">
-    <img src="../static/img/heroblue.png"class="herophoto">
-    <p>hero</p>
-</div>
-<div class="herowhite">
-    <img src="../static/img/herowhite.png"class="herophoto">
-    <p>hero</p>
-</div>
-
-<div class="squarelinkpink">
-    <a href="" class="btn-pink btn-border-shadow btn-border-shadow--color">squarelink</a>
-</div>
-
-<div class="squarelinkgreen">
-    <a href="" class="btn-green btn-border-shadow-green btn-border-shadow--color-green">squarelink</a>
-</div>
-
-<div class="squarelinkyellow">
-    <a href="" class="btn-yellow btn-border-shadow-yellow btn-border-shadow--color-yellow">squarelink</a>
-</div>
-
-<div class="squarelinkred">
-    <a href="" class="btn-red btn-border-shadow-red btn-border-shadow--color-red">squarelink</a>
-</div>
-
-
-<div class="paragraph">
-    SampleBox1アリスは川辺でおねえさんのよこにすわって、なんにもすることがないのでとても退屈（たいくつ）しはじめていました。
-
-    一、二回はおねえさんの読んでいる本をのぞいてみたけれど、そこには絵も会話もないのです。
-    「絵や会話のない本なん
-</div>
+    <main>
+      <div class="heroblue">
+        <img src="../static/img/heroblue.png"class="herophoto">
+        <p>早稲田祭とは</p>
+    </div>
+      <section class="history-section">
+          <div class="section-title2">
+            <img class="section2-img" src="../static/img/section2.png"
+            />
+            <div class="section2-text">早稲田祭の概要</div>
+            </div>
+            <div>
+          <div class="box">
+            <div class="itemm">
+              <div><strong>早稲田祭とは、年に一度行われる、日本最大級の学園祭！</strong></div>            <div class="item">
+              <p>1953年　第1回統一早稲田祭</p>            
+              <p>2002年　早稲田祭運営スタッフ結成</p>
+              <p>2019年 コロナ流行前完全対面開催</p>
+              <p>2020年 初のオンライン開催</p>
+              <p>2021年 初のオンライン・対面同時開催</p>
+              <p>2022年 制限のある対面開催</p>
+            </div>
+            <div class="itemm">
+              <p><strong>2020年のコロナ禍での開催から、徐々に活気を取り戻しています！</strong></p>
+        </div>
+      </section>
+      <section class="data-section">
+        <div class="section-inner">
+          <div class="box">
+           
+            <div class="item">
+             <p></p> 
+              <div class="blocktitle-pink">
+                企画数
+              </div>
+            <br></br>
+              <p>2019　約<strong>450</strong>企画</p>
+              <p>　↓</p>
+              <p>2020　約300企画</p>
+              <p>　↓</p>
+              <p>2022　約<strong>350</strong>企画</p>            
+            </div>
+            <div class="item">
+              <p></p> 
+              <div class="blocktitle-pink">
+                来場者数
+              </div>
+           <br> </br>
+              <p>2019　約<strong>20</strong>万人　　</p>
+              <p>　↓</p>
+              <p>　2020　オンライン開催</p>
+              <p>　↓</p>
+              <p>2022　約<strong>6万</strong>人　　</p>              
+            </div>
+            <div class="item">
+              <p></p> 
+              <div class="blocktitle-pink">
+                予算規模
+              </div>
+            <br></br>
+              <p>2019　約<strong>3800</strong>万円</p>
+              <p>　↓</p>
+              <p>2020　約<strong>1800</strong>万円</p>
+              <p>　↓</p>
+              <p>2022　約<strong>3300</strong>万円</p>
+            </div>
+          </div>
+        </div>
+         <div class="itemm2">
+            <p><strong>　早稲田祭は大学から資金をもらわずに、自主財源（企業や校友からの支援など）で運営しています！</strong></p>
+          </div>
+      </section>
 
  <footer class="footer">
     <div class="footer-inner">
@@ -173,3 +198,124 @@
     </div>
 </footer>
 </body>
+
+<style scoped>
+
+.section-title2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+  .section-inner {
+    max-width: 1024px;
+    padding: 0px 0px 40px 55px;
+    margin: auto;
+    background:white;
+  }
+  .history-section{
+    background-color: white;
+    font-size: 18px;
+    line-height: 1em;
+    height: 450px;
+  }
+  .data-section {
+    background: white;
+    font-size: 18px;
+    line-height:  0.9em;
+  }
+
+  .history-section .item {
+    padding: 0.5rem 0;
+    gap: 1rem;
+    background-color: white;
+    text-align: center;
+ 
+  }
+ 
+  .itemm {
+    text-align: center;
+    font-weight: 600px;
+  }
+
+  .itemm2 {
+    text-align: center;
+    padding-bottom: 45px;
+   
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  
+ 
+
+  
+  
+  .data-section .box {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .data-section {
+      position: relative;
+    }
+  
+    .data-section::before {
+      content: '';
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .data-section::after {
+      content: '';
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  
+  .data-section .box .item {
+    background:white;
+    width: 235px;
+    height:240px;
+    border-radius: 12px;
+    color: #08263A;
+    text-align: center;
+    padding: 1rem;
+    border-color: #77A9AA;
+    border-width: 3px;
+border-style: solid;
+text-align:center;
+  }
+  
+  .blocktitle-pink {
+    text-align: center;
+    color: #08263A;
+    font-size: 24px;
+    font-weight: 600;
+ 
+  }
+  
+ 
+  
+  @media screen and (max-width: 720px) {
+    .data-section .box {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  </style>
