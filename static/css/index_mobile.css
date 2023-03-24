@@ -343,7 +343,7 @@ font-weight: 700;
     line-height: 112px;
   }
   .btn-pink{
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
     position: relative;
@@ -359,7 +359,7 @@ font-weight: 700;
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
-    letter-spacing: 0.1em;
+    letter-spacing: 0;
     color: #08263A;
   }
   
@@ -416,7 +416,7 @@ font-weight: 700;
    .btn-green,
    a.btn-green,
    button.btn-green{
-     font-size: 1.6rem;
+     font-size: 0.96rem;
      font-weight: bold;
      line-height: 1.5;
      position: relative;
@@ -432,7 +432,7 @@ font-weight: 700;
      vertical-align: middle;
      text-align: center;
      text-decoration: none;
-     letter-spacing: 0.1em;
+     letter-spacing: 0;
      color: #fff;
    }
    
@@ -487,7 +487,7 @@ font-weight: 700;
   }
   
   .btn-yellow{
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
     position: relative;
@@ -503,7 +503,7 @@ font-weight: 700;
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
-    letter-spacing: 0.1em;
+    letter-spacing: 0;
     color: #08263A;
   }
   

@@ -1,0 +1,811 @@
+<head>
+    <meta charset="utf-8">
+    <title>2023早稲田祭運営スタッフ新歓サイト</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="(min-width: 1200px)" href="../static/css/index_pc.css">
+    <link rel="stylesheet" media="(max-width: 1200px)" href="../static/css/index_mobile.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="早稲田祭運営スタッフ2023年度新歓用公式サイトです。"> 
+    <meta name="keywords" content="早稲田祭,早稲田祭運営スタッフ,運スタ,早稲田">
+    <meta property="og:url" content="https://wasedasai.github.io/2023-Shinkan/pages/about.html" />
+    <meta property="og:type" content="article" />
+    <meta name="robots" content="noindex" />
+    <meta property="og:title" content="2023早稲田祭運営スタッフ新歓サイト-top" />
+    <meta property="og:description" content="早稲田祭運営スタッフ2023年度新歓用公式サイトです。" />
+    <meta property="og:site_name" content="2023早稲田祭運営スタッフ新歓サイト" />
+    <meta property="og:image" content="サムネイル画像のURL" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@staff_wasedasai" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+
+<body class="topbody">
+  <style>
+    @media screen and (max-width: 1024px) {
+    .topbody{
+      background-color: #ffffff;
+    }
+  }
+  </style>
+    <header class="bar">
+        <div class="menu">
+            <span class="menu__line menu__line--top"></span>
+            <span class="menu__line menu__line--center"></span>
+            <span class="menu__line menu__line--bottom"></span>
+      </div>
+        <nav class="gnav">
+            <div class="gnav__wrap">
+                <ul class="gnav__menu">
+                    <li class="gnav__menu__item"><a href="../index.html">Top</a></li>
+                    <li class="gnav__menu__item"><a href="aboutus.html">運営スタッフとは</a></li>
+                    <li class="gnav__menu__item"><a href="introduce.html">局紹介</a></li>
+                    <li class="gnav__menu__item"><a href="howto.html">入会方法</a></li>
+                    <li class="gnav__menu__item"><a href="event.html">新歓情報</a></li>
+                    <li class="gnav__menu__item"><a href="contact.html">お問合せ</a></li>
+                    <li class="gnav__menu__item"><a href="photogallery.html">運スタ写真館</a></li>
+                </ul>
+            </div>
+        </nav>
+            <div class="logo">
+                 <img src="../static/img/logo.png" height="50px">
+                </div>
+    </header>
+<!--スライドショー-->
+  <div class="slide-show">
+        <img src="../static/img/topkanban.jpg">
+        <img src="../static/img/topunsta.JPG">
+        <img src="../static/img/topdouzoumae.JPG">
+    </div>
+ <style>
+ .slide-show {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
+  margin: 0 auto;
+  overflow: hidden;
+ }
+.slide-show > img{
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  width: 100%;
+  height: 100%;
+  animation: slide 15s linear forwards infinite; 
+}
+.slide-show > img:nth-of-type(1){
+  animation: slide 15s linear forwards infinite, slide-start 15s linear;
+}
+.slide-show > img:nth-of-type(2) {
+  animation-delay: 5s; 
+}
+.slide-show > img:nth-of-type(3) {
+  animation-delay: 10s; 
+}
+@keyframes slide{
+  0% {
+    left: 100%;
+  }
+  3%, 33.333%{ 
+    left: 0;
+  }
+  36.333%,100%{
+    left: -100%;
+  }
+}
+@keyframes slide-start{
+  0%,33.333%{
+    left: 0; 
+  }
+  36.333%,100%{
+    left: -100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 520px){
+  .slide-show{
+    height: 400px
+  }
+}
+@media screen and (max-width: 520px) {
+  .slide-show{
+    height: 250px
+  }
+}
+</style>
+</div>
+<!--NEWS-->
+<div class="news">
+ <p>NEWS</p>
+ <div class="newscontainer">
+  <div class="paragraph">対面説明会応募フォームはこちらから！</div>
+  <!--3/26 12:00リリース
+    <div class="paragraph"><a>交流企画参加希望フォーム①受付開始！</a></div>
+  -->
+  <style>
+    .news{
+      background-color: #ffffff;
+      width: 550px;
+      height: 200px;
+      margin: 0 auto;
+      border-radius: 40px;
+      padding-bottom: 10px;
+      margin-top: 50px;
+    }
+   .newscontainer{
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+   overflow-y: scroll;
+   width: 450px;
+   height: 150px;
+   text-align: center;
+   }
+
+   @media screen and (max-width: 1024px)  and (min-width: 520px) {
+    .news{
+      border: 3px solid #77a9aa;
+      width: 450px;
+      height: 180px;
+    }
+    .newscontainer{
+    display:flex;
+    flex-direction: column;
+   overflow-y: scroll;
+   width: 400px;
+   height: 110px;
+   text-align: center;
+   }
+    }
+
+    @media screen and (max-width: 520px) {
+      .news{
+      border: 3px solid #77a9aa;
+      width: 350px;
+      height: 160px;
+    }
+    .newscontainer{
+    display:flex;
+    flex-direction: column;
+   overflow-y: scroll;
+   width: 300px;
+   height: 100px;
+   text-align: center;
+   }
+    }
+    .news p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #08263a;
+   }
+   .newscontainer paragraph{
+   padding-left: 20px;
+   }
+   .newscontainer::-webkit-scrollbar{
+   border-radius: 3px;
+   width: 7px;
+   }
+   .newscontainer::-webkit-scrollbar-track{
+   background-color: #ffffff;
+   border-radius: 3px;
+
+   }
+   .newscontainer::-webkit-scrollbar-thumb{
+   background: #77a9aa;
+   border-radius: 6px;
+   }
+  </style>
+ </div>
+</div>
+
+ <!--squarelink-->
+ <!--TODO　飛ばすページのリンク挿入-->
+<div class="f-container">
+  <style>
+    .f-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-content: space-around;
+      padding-top: 50px;
+    }
+  </style>
+<div class="squarelinkpink">
+    <a href="" class="btn-pink btn-border-shadow btn-border-shadow--color">説明会</a>
+    <style>
+      .squarelinkpink{
+        margin-bottom: 50px;
+      }
+    </style>
+</div>
+
+<div class="squarelinkgreen">
+    <a href="" class="btn-green btn-border-shadow-green btn-border-shadow--color-green">ワセトーーーーク！！</a>
+    <style>
+      .squarelinkgreen{
+        margin-bottom: 50px;
+      }
+    </style>
+</div>
+
+<div class="squarelinkyellow">
+    <a href="" class="btn-yellow btn-border-shadow-yellow btn-border-shadow--color-yellow">運スターツアーズ</a>
+</div>
+</div>
+
+<!--squarelink-->
+<!--TODO　飛ばすページのリンク挿入-->
+<div class="f-container">
+  <div class="squarelinkpink">
+      <a href="" class="btn-pink btn-border-shadow btn-border-shadow--color">運スタミッケ</a>
+  </div>
+  
+  <div class="squarelinkgreen">
+      <a href="" class="btn-green btn-border-shadow-green btn-border-shadow--color-green">運スタカウンセリング</a>
+  </div>
+  
+  <div class="squarelinkyellow">
+      <a href="" class="btn-yellow btn-border-shadow-yellow btn-border-shadow--color-yellow">運スタゼミナール</a>
+  </div>
+  <style>
+    .f-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-top: 50px;
+    }
+  </style>
+  </div>
+  <!--早稲田祭とは-->
+  <!--TODO　こちらのリンク挿入-->
+<div class="wasedasaitoha">
+ <div class="photocontainer">
+  <div class="four-one">
+    <img src="../static/img/topkatakumi.JPG">
+  </div>
+ <div class="four-two">
+    <img src="../static/img/topnuri.JPG">
+ </div>
+ </div>
+ <div class="toha">
+   <div class="section-title1">
+       <img class="section1-img" src="../static/img/section1.png"
+      />
+      <div class="section1-text">早稲田祭とは</div>
+   </div>
+   <div class="toptext">
+   <div class="paragraph">
+    年に1度、</br class="kuuhaku">早稲田キャンパス・戸山キャンパス・周辺地域を舞台に開催される早稲田文化の祭典、</br class="kuuhaku">それが「早稲田祭」です。</br class="kuuhaku">日本最大級の学園祭である早稲田祭についての</br class="kuuhaku">詳しい情報は、<a href="">こちら</a>からご覧ください。
+   </div>
+  </div>
+  </div>
+ <style>
+  .wasedasaitoha{
+            position: relative;
+        }
+        .four-one{
+            width:fit-content;
+            border-radius: 40px;
+            background-color: #fff;
+            margin-top: 20px;
+            margin-left: -35;
+        }
+        .four-one img{
+            width: 722px;
+            height: 484px;
+            border-radius: 40px;
+            opacity: 0.4;
+        }
+        .four-two{
+            width:fit-content;
+            border-radius: 40px;
+            background-color: #fff;
+            margin-top: -50;
+            margin-right: -50;
+            margin-left: auto;
+        }
+        .four-two img{
+            width: 584px;
+            height: 363px;
+            border-radius: 40px;
+            opacity: 0.4;
+        }
+        .toha{
+            background-color: #ffffff;
+            width: 670px;
+            height: 420px;
+            border-radius: 40px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+  .section-title1{
+    margin: 0 auto;
+  }
+  .section1-text{
+      color:#08263a;
+  }
+  .toptext{
+    text-align: center;
+    padding: 2em;
+  }
+  .toptext div{
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#08263a;
+  }
+        @media screen and (max-width: 1024px) and (min-width: 520px){
+          .four-one{
+            width:fit-content;
+            border-radius: 40px;
+            background-color: #fff;
+            margin-top: 20px;
+            margin-left: -35;
+        }
+        .four-one img{
+            width: 450px;
+            height: 280px;
+            border-radius: 40px;
+            opacity: 0.4;
+        }
+        .four-two{
+            width:fit-content;
+            border-radius: 40px;
+            background-color: #fff;
+            margin-right: -50;
+            margin-left: auto;
+        }
+        .four-two img{
+            width: 368px;
+            height: 230px;
+            border-radius: 40px;
+            opacity: 0.4;
+        }
+        .toha{
+            background-color: #ffffff;
+            border: 3px solid #77a9aa;
+            width: 400px;
+            height: 200px;
+            border-radius: 40px;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .toptext{
+    text-align: center;
+    padding: 0.1em 0.5em;
+  }
+  .toptext div{
+    letter-spacing: 0.5px;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#08263a;
+  }
+
+      }
+        @media screen and (max-width: 520px) {
+          .wasedasaitoha{
+            padding-top: 25px;
+          }
+          .four-one{
+            width:fit-content;
+            border-radius: 40px;
+            background-color: #fff;
+            margin-top: 20px;
+            margin-left: -35;
+        }
+        .four-one img{
+            width: 250px;
+            height: 160px;
+            border-radius: 40px;
+            opacity: 0.4;
+        }
+        .four-two{
+            width:fit-content;
+            border-radius: 40px;
+            background-color: #fff;
+            margin-right: -50;
+            margin-left: auto;
+        }
+        .four-two img{
+            width: 250px;
+            height: 156px;
+            border-radius: 40px;
+            opacity: 0.4;
+        }
+        .toha{
+      background-color: #ffffff;
+      border: 3px solid #77a9aa;
+      width: 300px;
+      height: 150px;
+      border-radius: 40px;
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  } 
+  .section-title1{
+  position: relative;
+  height:50px;
+  width:125px;
+}
+.section1-text{
+font-size:15px;
+}
+.kuuhaku{
+  display: none;
+}
+.toptext{
+    text-align: center;
+    padding: 0.1em 0.5em;
+  }
+  .toptext div{
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#08263a;
+  }
+} 
+ </style>
+</div>
+
+<!--運営スタッフとは-->
+<!--TODO　こちらのリンク挿入-->
+<div class="stafftoha">
+  <div class="photocontainer">
+   <div class="four-three">
+     <img src="../static/img/topfuusen.JPG">
+   </div>
+  <div class="four-four">
+     <img src="../static/img/toptatekan.JPG">
+  </div>
+  </div>
+  <div class="uwaa">
+    <div class="section-title1">
+        <img class="section1-img" src="../static/img/section1.png"
+       />
+       <div class="section1-text">運営スタッフとは</div>
+    </div>
+    <div class="toptext2">
+      <div class="paragraph">
+    早稲田祭2023の開催、</br class="kuuhaku">そして成功に向けて日々活動しているのが私たち「早稲田祭2023運営スタッフ」です。</br class="kuuhaku">活動日時や活動内容については</br class="kuuhaku"><a href="">こちら</a>からご覧ください。
+    </div>
+  </div>
+  </div>
+  <style>
+   .stafftoha{
+             position: relative;
+             margin-top: 50px;
+         }
+         .four-three{
+             width:fit-content;
+             border-radius: 40px;
+             background-color: #fff;
+             margin-right: -50;
+             margin-left: auto;
+         }
+         .four-three img{
+             width: 722px;
+             height: 484px;
+             border-radius: 40px;
+             opacity: 0.4;
+         }
+         .four-four{
+             width:fit-content;
+             border-radius: 40px;
+             background-color: #fff;
+             margin-top: -50;
+             margin-right: auto;
+             margin-left: -50;
+         }
+         .four-four img{
+             width: 584px;
+             height: 363px;
+             border-radius: 40px;
+             opacity: 0.4;
+         }
+         .uwaa{
+       background-color: #ffffff;
+       width: 670px;
+       height: 420px;
+       border-radius: 40px;
+       position:absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+   }
+   .section-title1{
+    margin: 0 auto;
+   }
+   .section1-text{
+       color:#08263a;
+   }
+   .toptext2{
+    text-align: center;
+    padding: 2em;
+  }
+  .toptext2 div{
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#08263a;
+  }
+         @media screen and (max-width: 1024px) and (min-width: 520px){
+           .four-three{
+             width:fit-content;
+             border-radius: 40px;
+             background-color: #fff;
+             margin-top: 20px;
+             margin-right: -50;
+             margin-left: auto;
+         }
+         .four-three img{
+             width: 450px;
+             height: 280px;
+             border-radius: 40px;
+             opacity: 0.4;
+         }
+         .four-four{
+             width:fit-content;
+             border-radius: 40px;
+             background-color: #fff;
+             margin-right: auto;
+             margin-left: -50;
+         }
+         .four-four img{
+             width: 368px;
+             height: 230px;
+             border-radius: 40px;
+             opacity: 0.4;
+         }
+         .uwaa{
+       background-color: #ffffff;
+       border: 3px solid #77a9aa;
+       width: 400px;
+       height: 200px;
+       border-radius: 40px;
+       position:absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+   }
+
+   .toptext2{
+    text-align: center;
+    padding: 0.1em 0.5em;
+  }
+  .toptext2 div{
+    letter-spacing: 0.5px;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#08263a;
+  }
+       }
+         @media screen and (max-width: 520px) {
+           .four-three{
+             width:fit-content;
+             border-radius: 40px;
+             background-color: #fff;
+             margin-top: 20px;
+             margin-right: -50;
+             margin-left: auto;
+         }
+         .four-three img{
+             width: 250px;
+             height: 160px;
+             border-radius: 40px;
+             opacity: 0.4;
+         }
+           .four-four{
+             width:fit-content;
+             border-radius: 40px;
+             background-color: #fff;
+             margin-right: auto;
+             margin-left: -50;
+         }
+         .four-four img{
+             width: 250px;
+             height: 156px;
+             border-radius: 40px;
+             opacity: 0.4;
+         }
+     .uwaa{
+       background-color: #ffffff;
+       border: 3px solid #77a9aa;
+       width: 300px;
+       height: 150px;
+       border-radius: 40px;
+       position:absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+   } 
+   .section-title1{
+   position: relative;
+   height:50px;
+   width:125px;
+ }
+ .section1-text{
+ font-size:15px;
+ }
+ .toptext2{
+    text-align: center;
+    padding: 0.3em 0.5em;
+  }
+  .toptext2 div{
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color:#08263a;
+  }
+ } 
+  </style>
+ </div>
+
+<!--ピンクボタン3つ-->
+<!--TODO　飛ばすページのリンク挿入-->
+<div class="pinkbtn-container">
+ <div>
+   <a href="" class="btn_04">運営スタッフのリアル</a>
+ </div>
+ <div>
+   <a href="" class="btn_04">局紹介</a>
+ </div>
+ <div>
+   <a href="" class="btn_04">運営スタッフの全体像</a>
+ </div>
+ <style>
+  .pinkbtn-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  a.btn_04 {
+	   display: block;
+	   text-align: center;
+	   text-decoration: none;
+	   width: 145px;
+	   padding: 1rem 4rem;
+	   font-weight: bold;
+	   border: 2px solid #f7c4c6;
+	   background: #f7c4c6;
+	   color: #ffffff;
+	   border-radius: 100vh;
+	   transition: 0.5s;
+     font-size: 0.9rem;
+     }
+     a.btn_04:hover {
+	   color: #f7c4c6;
+	   background: #e3fff6;
+     }
+  @media screen and (max-width: 1024px) {
+   .pinkbtn-container {
+      flex-wrap: wrap;
+    }
+    .btn_04{
+      margin-bottom: 20px;
+    }
+    a.btn_04:hover {
+	   color: #f7c4c6;
+	   background: #ffffff;
+     }
+  }
+ </style>
+</div>
+<!--入会方法 squarelinkyellow-->
+<!--TODO　飛ばすページのリンク挿入-->
+<div class="squarecenter">
+ <div class="squarelinkyellow">
+  <a href="" class="btn-yellow btn-border-shadow-yellow btn-border-shadow--color-yellow">入会方法</a>
+ </div>
+ <style>
+  .squarecenter{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .squarecenter{
+      padding-top: 30px;
+    }
+  }
+</style>
+ </div>
+ 
+ <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-body">
+        <div class="footer-logo-container">
+          <img class="footer-logo" src="../static/img/logo_catch.png"
+          />
+        </div>
+        <div class="footer-navi-list">
+
+          <hr />
+          <ul class="nav-list">
+           <li><a href="../index.html">HOME</a></li> <li><a href="aboutfes.html">早稲田祭とは</a></li>
+            <li><a href="aboutus.html">運営スタッフとは</a></li>
+          </ul>
+          <hr />
+          <ul class="nav-list">
+            
+            <li> <a href ="introduce.html">局紹介</a>
+            </li>
+            <li><a href ="howto.html">入会方法</a>
+            </li>
+            <li><a href="aboutstaff.html">
+             スタッフの内情
+            </a></li>
+            <li><a href="overall.html">運営スタッフ全体像</a></li>
+          </ul>
+          <hr />
+          <ul class="nav-list">
+            <li><a href ="event.html">新歓情報</a></li>
+            <li><a href="photogallery.html">運スタ写真館</a></li>
+            <li><a href="question.html">よくある質問</a></li>
+            <li><a href="contact.html">お問い合わせについて</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sns-links-container">
+        <a
+          href="https://twitter.com/wasedasai_new"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="../static/img/twitter.png"
+            alt="twitterのリンク"
+        /></a>
+        <a
+          href="https://instagram.com/wasedasai_new/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="../static/img/instagram.png"
+            alt="instagramのリンク"
+        /></a>
+        <a
+          href="https://youtube.com/channel/UCwyXxBLHp1ku0arseLoIaGA"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="../static/img/youtube.png"
+            alt="youtubeのリンク"
+        /></a>
+        <a
+          href="https://linevoom.line.me/user/_dYhT9WMHSKev8Oi2AB7qJZK6ocoEW_uYk8j2h3w"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            class="sns-link"
+            src="../static/img/line.png"
+            alt="noteのリンク"
+        /></a>
+      </div>
+    </div>
+</footer>
+</body>
