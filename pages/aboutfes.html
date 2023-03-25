@@ -62,15 +62,17 @@
             <div>
           <div class="box">
             <div class="itemm">
-              <div><strong>早稲田祭とは、年に1度行われる、日本最大級の学園祭！</strong></div> 
+              <div class="paragraphfes">早稲田祭とは、年に1度行われる、日本最大級の学園祭！</div> 
               <div class="item">
-              <p>2019年　コロナ流行前最後のオフライン開催</p>
-              <p>2020年 初のオンライン開催</p>
-              <p>2021年　初のハイブリッド開催</p>
-              <p>2022年 制限のある対面開催</p>
+                <div class="paragraph">2019年　コロナ流行前最後のオフライン開催</div>
+                <div class="paragraph">2020年　初のオンライン開催</div>
+                <div class="paragraph">2021年　初のハイブリッド開催</div>
+                <div class="paragraph">2022年　制限のある対面開催</div>
             </div>
             <div class="itemm">
-              <p><strong>2020年のコロナ禍での開催から、徐々に活気を取り戻しています！</strong></p>
+              <div class="paragraphfes">
+              2020年のコロナ禍での開催から、徐々に活気を取り戻しています！
+             </div>
         </div>
       </section>
       <section class="data-section">
@@ -78,7 +80,7 @@
           <div class="box">
            
             <div class="item">
-             <p></p> 
+              <p></p>
               <div class="blocktitle-pink">
                 企画数
               </div>
@@ -90,7 +92,7 @@
               <p>2022年　約<strong>350</strong>企画</p>            
             </div>
             <div class="item">
-              <p></p> 
+              <p></p>
               <div class="blocktitle-pink">
                 来場者数
               </div>
@@ -99,10 +101,10 @@
               <p>　⇓</p>
               <p>　2020年　オンライン開催</p>
               <p>　⇓</p>
-              <p>2022年　約<strong>6万</strong>人　　</p>              
+              <p>2022年　約<strong>6</strong>万人　　　</p>              
             </div>
             <div class="item">
-              <p></p> 
+              <p></p>
               <div class="blocktitle-pink">
                 予算規模
               </div>
@@ -115,8 +117,8 @@
             </div>
           </div>
         </div>
-         <div class="itemm2">
-            <p><strong>　早稲田祭は大学から資金をもらわずに、自主財源（企業や校友からの支援など）で運営しています！</strong></p>
+          <div class="paragraphfes2">
+            早稲田祭は大学から資金をもらわずに、</br>自主財源（企業や校友からの支援など）で運営しています！
           </div>
       </section>
 
@@ -198,7 +200,7 @@
 </footer>
 </body>
 
-<style scoped>
+<style>
 .aboutfesbody{
   background-color: #ffffff;
   color:#08263A;
@@ -219,8 +221,8 @@
     padding-bottom: 40px;
   }
   .data-section {
-    font-size: 18px;
-    line-height:  0.9em;
+    line-height: 14px;
+    font-size: 14px;
   }
 
   .history-section .item {
@@ -229,17 +231,8 @@
     text-align: center;
  
   }
- 
   .itemm {
     text-align: center;
-    font-weight: 600px;
-  }
-
-  .itemm2 {
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 20px;
-    line-height: 20px;
   }
   .data-section .box {
     display: flex;
@@ -279,16 +272,14 @@
   }
   
   .data-section .box .item {
-    width: 235px;
-    height:240px;
+    width: 200px;
+    height:195px;
     border-radius: 25px;
     color: #08263A;
     text-align: center;
     padding: 1rem;
-    border-color: #77A9AA;
-    border-width: 3px;
-border-style: solid;
-text-align:center;
+    border: 3px solid #77A9AA;
+    text-align:center;
   }
   
   .blocktitle-pink {
@@ -299,13 +290,33 @@ text-align:center;
  
   }
   
- 
+ .paragraphfes{
+   letter-spacing: 0.5px;
+    line-height: 14px;
+    font-size: 14px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color:#08263a;
+    text-align: center;
+ }
+
+ .paragraphfes2{
+  letter-spacing: 0.5px;
+    line-height: 14px;
+    font-size: 14px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color:#08263a;
+    text-align: center;
+  padding-bottom: 40px;
+ }
   
   @media screen and (max-width: 720px) {
     .data-section .box {
       display: flex;
       flex-direction: column;
-      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
   }
   </style>
