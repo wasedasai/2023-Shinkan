@@ -352,7 +352,7 @@ left: 50%;
 transform: translate(-50%,-50%);
 margin:0;
 padding:0;
-font-size: 5vw;
+font-size: 3vw;
 font-weight: bold;
 color: #08263A;
 }
@@ -373,7 +373,7 @@ color: #08263A;
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: bold;
   color: #08263A;
 }
@@ -398,7 +398,7 @@ color: #08263A;
   }
 
   .btn-pink {
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
     position: relative;
@@ -471,7 +471,7 @@ color: #08263A;
    .btn-green,
    a.btn-green,
    button.btn-green{
-     font-size: 1.6rem;
+     font-size: 0.96rem;
      font-weight: bold;
      line-height: 1.5;
      position: relative;
@@ -487,7 +487,7 @@ color: #08263A;
      vertical-align: middle;
      text-align: center;
      text-decoration: none;
-     letter-spacing: 0.1em;
+     letter-spacing: 0;
      color: #fff;
    }
    
@@ -544,7 +544,7 @@ color: #08263A;
   .btn-yellow,
   a.btn-yellow,
   button.btn-yellow{
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.5;
     position: relative;
