@@ -47,6 +47,10 @@
                  <img src="../static/img/logo.png" height="50px">
                 </div>
     </header>
+    <div class="heroblue">
+      <img src="../static/img/heroblue.png"class="herophoto">
+      <p>よくある質問</p>
+  </div>
 
     <ul class="accordion-area">
 
@@ -77,6 +81,20 @@
         </div>
         </section>
         </li>
+
+        <li><!--li ~ /li までが一つのアコーディオン-->
+          <section>
+          <div class="title">
+          <div class="circle">
+          <span class="formark"></span>
+          </div>
+          <div class="question">Q：活動日はいつですか？</div>
+          </div>
+          <div class="box">
+          <p>A： 基本的には月曜日と木曜日の6時限目から活動しています。局によっては、水曜日や金曜日も活動があります。また、早稲田祭直前は活動日が増えることがあります！</p>
+          </div>
+          </section>
+          </li>
 
         <li>
           <section>
@@ -309,6 +327,13 @@ body{
     display: none;/*はじめは非表示*/
 	  margin-left:80px;
     width:80%;
+}
+
+.box a{
+  color:#77A9AA;
+}
+.box a:hover{
+  color:#F7c4C6;
 }
 
 @media print, screen and (max-width: 1200px){
