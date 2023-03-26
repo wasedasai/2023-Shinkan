@@ -50,11 +50,126 @@
 
  <div class="heroblue">
     <img src="../static/img/heroblue.png"class="herophoto">
-    <p>hero</p>
+    <p>新歓イベント</p>
 </div>
 
 <div class="calender">
-  まだつくんない
+      <h1>4月</h1>
+      <table class="calendar">
+      <tr class="week">
+      <th>日</th>
+      <th>月</th>
+      <th>火</th>
+      <th>水</th>
+      <th>木</th>
+      <th>金</th>
+      <th>土</th>
+      </tr>
+      <tr class="day">
+      <th>26</th>
+      <th>27</th>
+      <th>28</th>
+      <th>29</th>
+      <th>30</th>
+      <th>31</th>
+      <th>1</th>
+      </tr> 
+      <tr class="events-setumei">
+        <td colspan="7"><a class="table-link" href="https://docs.google.com/forms/d/e/1FAIpQLSclxm2qaAjPRRUA55MydFYBVwnnfTI-fxwsibBX_OGSdzU8xg/viewform">対面説明会</a>
+        </td>
+        </tr> 
+      <tr class="day">
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+        </tr> 
+        <tr class="events">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          </tr> 
+        <tr class="day">
+          <th>9</th>
+          <th>10</th>
+          <th>11</th>
+          <th>12</th>
+          <th>13</th>
+          <th>14</th>
+          <th>15</th>
+          </tr> 
+          <tr class="events">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            </tr> 
+          <tr class="day">
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+            <th>19</th>
+            <th>20</th>
+            <th>21</th>
+            <th>22</th>
+          </tr>
+          <tr class="events">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            </tr> 
+          <tr class="day">
+            <th>23</th>
+            <th>24</th>
+            <th>25</th>
+            <th>26</th>
+            <th>27</th>
+            <th>28</th>
+            <th>29</th>
+          </tr>
+          <tr class="events">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            </tr> 
+          <tr class="day">
+            <th>30</th>
+            <th>31</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>   
+          <tr class="events">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            </tr>          
+
+    </table>
   </div>
 
   <div class="section-title1">
@@ -305,7 +420,7 @@
     border-radius: 30px;
     background-color: #fff;
     text-align: center;
-    height:300px;
+    padding: 10;
   }
 
   .section-title1{
@@ -370,6 +485,54 @@
   .scrollwindow::-webkit-scrollbar-thumb{
    background-color: #77a9aa;
   }
+
+  .calender table{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  th, td {
+  text-align: center;
+  padding: 10px;
+  width:12%;
+}
+
+  .day th{
+    height: 10%;
+  }
+
+.day *:first-child {
+  color: #ff838b;
+}
+.day *:last-child {
+  color: #6fb5ff;
+}
+
+.week *:first-child {
+  color: #ff838b;
+}
+.week *:last-child {
+  color: #6fb5ff;
+}
+.events-setumei td{
+  height: 5px;
+  font-size: 5px;
+  padding: 0;
+  background-color: #77a9aa;
+  color: #FFF;
+  border:2px solid #77a9aa;
+  border-radius:20px;
+
+}
+
+.table-link{
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #FFF;
+}
+
   @media print, screen and (max-width: 1200px){
   .flex-container{
     display: block;
