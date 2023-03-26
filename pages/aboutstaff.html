@@ -1,4 +1,4 @@
-<!--<head>
+<head>
     <meta charset="utf-8">
     <title>2023早稲田祭運営スタッフ新歓サイト</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,13 +33,17 @@
       <nav class="gnav">
           <div class="gnav__wrap">
               <ul class="gnav__menu">
-                  <li class="gnav__menu__item"><a href="top.html">Top</a></li>
+                <li class="gnav__menu__item"><a href="../index.html">Top</a></li>
                   <li class="gnav__menu__item"><a href="aboutus.html">運営スタッフとは</a></li>
+                  <li class="gnav__menu__item"><a href="aboutfes.html">早稲田祭とは</a></li>
+                  <li class="gnav__menu__item"><a href="aboutstaff.html">運営スタッフのリアル</a></li>
                   <li class="gnav__menu__item"><a href="introduce.html">局紹介</a></li>
+                  <li class="gnav__menu__item"><a href="overall.html">運スタの全体像</a></li>
+                  <li class="gnav__menu__item"><a href="photogallery.html">運スタ写真館</a></li>
                   <li class="gnav__menu__item"><a href="howto.html">入会方法</a></li>
                   <li class="gnav__menu__item"><a href="event.html">新歓情報</a></li>
-                  <li class="gnav__menu__item"><a href="contact.html">お問い合わせ</a></li>
-                  <li class="gnav__menu__item"><a href="photogallery.html">運スタ写真館</a></li>
+                  <li class="gnav__menu__item"><a href="question.html">よくある質問</a></li>
+                  <li class="gnav__menu__item"><a href="contact.html">お問合せについて</a></li>
               </ul>
           </div>
       </nav>
@@ -443,161 +447,114 @@
     </div>
   </div>
 </footer>
-</body>-->
-
-<head>
-  <meta charset="utf-8">
-  <title>2023早稲田祭運営スタッフ新歓サイト</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" media="(min-width: 1200px)" href="../static/css/index_pc.css">
-  <link rel="stylesheet" media="(max-width: 1200px)" href="../static/css/index_mobile.css">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="description" content="早稲田祭運営スタッフ2023年度新歓用公式サイトです。"> 
-  <meta name="keywords" content="早稲田祭,早稲田祭運営スタッフ,運スタ,早稲田">
-  <meta property="og:url" content="https://wasedasai.github.io/2023-Shinkan/pages/about.html" />
-  <meta property="og:type" content="article" />
-  <meta name="robots" content="noindex" />
-  <meta property="og:title" content="2023早稲田祭運営スタッフ新歓サイト-components" />
-  <meta property="og:description" content="早稲田祭運営スタッフ2023年度新歓用公式サイトです。" />
-  <meta property="og:site_name" content="2023早稲田祭運営スタッフ新歓サイト" />
-  <meta property="og:image" content="サムネイル画像のURL" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@staff_wasedasai" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="../static/js/index.js"></script>
-</head>
-
-<body>
-  <header class="bar">
-    
-      <div class="menu">
-          <span class="menu__line menu__line--top"></span>
-          <span class="menu__line menu__line--center"></span>
-          <span class="menu__line menu__line--bottom"></span>
-    </div>
-      <nav class="gnav">
-          <div class="gnav__wrap">
-              <ul class="gnav__menu">
-                  <li class="gnav__menu__item"><a href="../index.html">Top</a></li>
-                  <li class="gnav__menu__item"><a href="aboutus.html">運営スタッフとは</a></li>
-                  <li class="gnav__menu__item"><a href="introduce.html">局紹介</a></li>
-                  <li class="gnav__menu__item"><a href="howto.html">入会方法</a></li>
-                  <li class="gnav__menu__item"><a href="event.html">新歓情報</a></li>
-                  <li class="gnav__menu__item"><a href="contact.html">お問合せ</a></li>
-                  <li class="gnav__menu__item"><a href="photogallery.html">運スタ写真館</a></li>
-              </ul>
-          </div>
-      </nav>
-          <div class="logo">
-               <img src="../static/img/logo.png" height="50px">
-              </div>
-  </header>
-
-
-
-
-
-<div class="images"><img src="../static/img/logo-dev.png" height=200 weight=200></div>
-</br><div class="paragraph" text>
-  coming soon...
-</div>
 <style>
-div {
+  body{
+      background-color: #ffffff;
+  }
+.grafcontainer{
+  display: flex;
+  flex-direction: column;
+
+}
+.grafchild p{
+  border:3px solid #77a9aa;
+  padding: 8px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color:#08263a;
+}
+.anketochild{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   text-align: center;
 }
+.anketochild img{
+  width:90%;
+}
+.anketocontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-.paragraph{
-  width:100%;
-  letter-spacing: 0.5px;
-  line-height: 14px;
-  font-size: 14px;
-  padding-bottom: 8px;
-  font-weight: 400;
-  color:#08263a;
+.interviewcontainer{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
   text-align: center;
+  margin: 0 auto;
+}
+.interviewchild{
+  border:3px solid #77a9aa;
+  border-radius: 20px;
+  text-align: center;
+  padding: 1em;
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.interviewchild img{
+  width:90%;
+}
+
+.interviewchildwaa{
+  border:3px solid #77a9aa;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em;
+  margin-bottom: 30px;
+  width:90%;
+}
+
+.interviewchildwaa img{
+  width:90%;
+}
+
+ .interviewchild a{
+  color:#77a9aa;
+ }
+
+ .interviewchild a:hover{
+  color:#F7C4C6;
+ }
+.sukima{
+  height: 10px;
+}
+.hero{
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px){
+  .anketochild{
+    flex-direction: column;
+  }
+
+  .grafchild{
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  .anketochild img{
+  margin: 0 auto;
+  width:90%;
+}
+.interviewcontainer{
+  display:block;
+  width: 100%;
+}
+.interviewchild{
+  width:90%;
+  margin: 0 auto;
+  margin-bottom:80px;
+}
 }
 </style>
-
-
-
-
-
-<footer class="footer">
-<div class="footer-inner">
-  <div class="footer-body">
-    <div class="footer-logo-container">
-      <img class="footer-logo" src="../static/img/logo_catch.png"
-      />
-    </div>
-    <div class="footer-navi-list">
-
-      <hr />
-      <ul class="nav-list">
-       <li><a href="../index.html">HOME</a></li> <li><a href="aboutfes.html">早稲田祭とは</a></li>
-        <li><a href="aboutus.html">運営スタッフとは</a></li>
-      </ul>
-      <hr />
-      <ul class="nav-list">
-        
-        <li> <a href ="introduce.html">局紹介</a>
-        </li>
-        <li><a href ="howto.html">入会方法</a>
-        </li>
-        <li><a href="aboutstaff.html">
-         スタッフの内情
-        </a></li>
-        <li><a href="overall.html">運営スタッフ全体像</a></li>
-      </ul>
-      <hr />
-      <ul class="nav-list">
-        <li><a href ="event.html">新歓情報</a></li>
-        <li><a href="photogallery.html">運スタ写真館</a></li>
-        <li><a href="question.html">よくある質問</a></li>
-        <li><a href="contact.html">お問い合わせについて</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="sns-links-container">
-    <a
-      href="https://twitter.com/wasedasai_new"
-      target="_blank"
-      rel="noopener noreferrer"
-      ><img
-        class="sns-link"
-        src="../static/img/twitter.png"
-        alt="twitterのリンク"
-    /></a>
-    <a
-      href="https://instagram.com/wasedasai_new/"
-      target="_blank"
-      rel="noopener noreferrer"
-      ><img
-        class="sns-link"
-        src="../static/img/instagram.png"
-        alt="instagramのリンク"
-    /></a>
-    <a
-      href="https://youtube.com/channel/UCwyXxBLHp1ku0arseLoIaGA"
-      target="_blank"
-      rel="noopener noreferrer"
-      ><img
-        class="sns-link"
-        src="../static/img/youtube.png"
-        alt="youtubeのリンク"
-    /></a>
-    <a
-      href="https://linevoom.line.me/user/_dYhT9WMHSKev8Oi2AB7qJZK6ocoEW_uYk8j2h3w"
-      target="_blank"
-      rel="noopener noreferrer"
-      ><img
-        class="sns-link"
-        src="../static/img/line.png"
-        alt="noteのリンク"
-    /></a>
-  </div>
-</div>
-</footer>
 </body>
+
+
