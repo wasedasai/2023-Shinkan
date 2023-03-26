@@ -171,14 +171,29 @@
       line-height: 0.5;
     }
   
-  .gnav__menu{
-      width: 170px;
+    .gnav__menu{
+      width:100%;
       position: absolute;
       left:50%;
+      top:2px;
+      height:90%;
+      margin-bottom:30;
+      overflow:auto;
       transform:translateX(-50%);
       list-style: none;
       padding: 0;
   }
+
+  .gnav__menu::-webkit-scrollbar{
+    width: 10px;
+   }
+   .gnav__menu::-webkit-scrollbar-track{
+    background-color: #ccc;
+   }
+   .gnav__menu::-webkit-scrollbar-thumb{
+    background-color: #77a9aa;
+   }
+
   .gnav__menu__item{
       text-align: center;
       margin-bottom: 70px;
