@@ -98,8 +98,8 @@ header{
       width:100%;
       position: absolute;
       left:50%;
-      top:50px;
-      height:100%;
+      top:2px;
+      height:90%;
       margin-bottom:30;
       overflow:auto;
       transform:translateX(-50%);
