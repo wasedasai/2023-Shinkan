@@ -28,6 +28,7 @@ header{
   
   .bar{
       z-index: 100;
+      background-color: #0B7A6D;
   }
   
   /*menu*/
