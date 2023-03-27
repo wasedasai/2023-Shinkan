@@ -236,19 +236,22 @@ header{
 .section-title1{
   position: relative;
   height:100px;
-  width:280px;
+  width: fit-content;
 }
 
 .section1-img{
-  height:90%;
+  width:50px;
+  z-index: 20;
 }
 
 .section1-text{
-position: absolute;
-top:35%;
-left:10%;
+position:absolute;
 font-size:27px;
-font-weight: 700;
+font-weight:700;
+color:#08263A;
+margin: 0 auto;
+z-index: 23;
+width:fit-content;
 }
 
 .section-title2{
