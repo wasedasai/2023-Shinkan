@@ -62,12 +62,14 @@
 <div class="anketocontainer">
 <div class="anketochild">
  <div class="grafcontainer">
+  <div class="midashi">性別は？</div>
   <img src="../static/img/seibetu.png" class="grafchild">
    <div class="grafchild">
       <p>活動時は性別関係なく仲良く活動しています！</p>
    </div>
   </div>
   <div class="grafcontainer">
+    <div class="midashi">学部はどこ？</div>
       <img src="../static/img/gakubu.png" class="grafchild">
        <div class="grafchild">
           <p>理工キャンパスや所沢キャンパスの人もいます！
@@ -78,12 +80,18 @@
 </div>
 <div class="anketochild">
      <div class="grafcontainer">
+      <div class="midashi">
+        GPAは？
+      </div>
       <img src="../static/img/gpa.png" class="grafchild">
        <div class="grafchild">
           <p>高GPAの人も多いです！</p>
        </div>
       </div>
       <div class="grafcontainer">
+        <div class="midashi">
+          受験方式は？
+        </div>
           <img src="../static/img/jyukenhoushiki.png" class="grafchild">
            <div class="grafchild">
               <p>いろいろな受験方式の人がいます！</p>
@@ -93,6 +101,9 @@
 
 <div class="anketochild">
       <div class="grafcontainer">
+        <div class="midashi"> 
+          出身はどこ？
+          </div>       
               <img src="../static/img/shusshin.png" class="grafchild">
                <div class="grafchild">
                   <p>やっぱり関東が多いですが地方出身の人もいます！</br>
@@ -101,6 +112,9 @@
                </div>
               </div>
       <div class="grafcontainer">
+        <div class="midashi">
+          バイトしてる？
+        </div>
               <img src="../static/img/baito.png" class="grafchild">
                   <div class="grafchild">
                       <p>飲食系や教育系のバイトをしている人が多いです！</p>
@@ -110,12 +124,14 @@
 
 <div class="anketochild">
       <div class="grafcontainer">
+        <div class="midashi">バイトにどれくらい入ってる？</div>
               <img src="../static/img/baitohindo.png" class="grafchild">
                   <div class="grafchild">
                       <p>たくさん稼いで運スタの友だちとたくさん遊びましょう！</p>
                   </div>
       </div>
       <div class="grafcontainer">
+        <div class="midashi">兼サーしてる？</div>
           <img src="../static/img/kensa.png" class="grafchild">
               <div class="grafchild">
                   <p>兼サー先はスポーツ系、学術系が多い印象です！</p>
@@ -124,12 +140,14 @@
     </div>
     <div class="anketochild">
      <div class="grafcontainer">
+      <div class="midashi">兼サー先にどれくらい参加してる？</div>
       <img src="../static/img/kensahindo.png" class="grafchild">
           <div class="grafchild">
               <p>兼サー先のことが好きでも、運スタのことは嫌いにならないでください！！</p>
           </div>
     </div>
     <div class="grafcontainer">
+      <div class="midashi">短期も含めて留学したことorする予定ある？</div>
       <img src="../static/img/ryuugaku.png" class="grafchild">
           <div class="grafchild">
               <p>春休み、夏休みなどの長期休暇を利用して留学する運スタも多数います！</p>
@@ -139,6 +157,7 @@
 
   <div class="anketochild">
     <div class="grafcontainer">
+      <div class="midashi">ぶっちゃけ恋人いる？</div>
       <img src="../static/img/koibito.png" class="grafchild">
           <div class="grafchild">
               <p>羨ましいです……</p>
@@ -154,12 +173,14 @@
 <div class="anketocontainer">
 <div class="anketochild">
  <div class="grafcontainer">
+  <div class="midashi">運スタの活動は忙しい？</div>
   <img src="../static/img/isogashisa.png" class="grafchild">
    <div class="grafchild">
       <p>早稲田祭の成功のために日々頑張っています！</p>
    </div>
   </div>
   <div class="grafcontainer">
+    <div class="midashi">入会した理由は？</div>
     <img src="../static/img/riyuu.png" class="grafchild">
      <div class="grafchild">
         <p>600人ものメンバーがいるため友だちがたくさんできるのもいいところです！</br>
@@ -453,7 +474,7 @@
 .grafcontainer{
   display: flex;
   flex-direction: column;
-
+  margin-bottom:30px;
 }
 .grafchild p{
   border:3px solid #77a9aa;
@@ -473,6 +494,7 @@
 }
 .anketochild img{
   width:90%;
+  margin: 0 auto;
 }
 .anketocontainer{
   display: flex;
@@ -488,6 +510,12 @@
   text-align: center;
   margin: 0 auto;
 }
+
+.midashi{
+  color:#08263a;
+  font-weight: 700;
+}
+
 .interviewchild{
   border:3px solid #77a9aa;
   border-radius: 20px;
@@ -499,6 +527,7 @@
 
 .interviewchild img{
   width:90%;
+  margin: 0 auto;
 }
 
 .interviewchildwaa{
